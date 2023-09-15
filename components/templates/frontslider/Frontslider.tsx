@@ -4,26 +4,23 @@ import 'react-slideshow-image/dist/styles.css'
 
 const fadeImages = [
   {
-    url: 'http://savagevaran.com/wp-content/uploads/2023/08/varan_top_slider01.jpg',
+    url: 'http://savagevaran.com/wp-content/uploads/2023/09/varan_slide_01.jpg',
     caption: ''
   },
   {
-    url: 'http://savagevaran.com/wp-content/uploads/2023/08/varan_top_slider02.jpg',
+    url: 'http://savagevaran.com/wp-content/uploads/2023/09/varan_slide_02.jpg',
     caption: ''
   },
   {
-    url: 'http://savagevaran.com/wp-content/uploads/2023/08/varan_top_slider03.jpg',
+    url: 'http://savagevaran.com/wp-content/uploads/2023/09/varan_slide_03.jpg',
     caption: ''
   },
-  {
-    url: 'http://savagevaran.com/wp-content/uploads/2023/08/varan_top_slider04.jpg',
-    caption: ''
-  },
+ 
 ];
 
 const FrontSlider = () => {
   return (
-    <div className="slide-container mt-10">
+    <div className="slide-container ">
       <Fade>
         {fadeImages.map((fadeImage, index) => (
           <div key={index}>
