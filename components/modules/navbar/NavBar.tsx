@@ -8,7 +8,7 @@ function NavBar() {
  const [isOpen, setIsOpen] = useState(false);
 
  return (
-   <nav className="flex items-center justify-between flex-wrap p-4 border-b border-yellow-100 bg-blue-900">
+   <nav className="flex items-center justify-between flex-wrap p-4 border-b border-yellow-100 bg-blue-800">
      <div className="flex items-center flex-shrink mr-6 lg:mr-72">
 
      <Image

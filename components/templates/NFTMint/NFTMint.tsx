@@ -30,9 +30,9 @@ const NFTMint = () => {
         
 
           
-            <hr className="w-full  border-yellow-200" />
-            <p className="text-base font-semibold tracking-wide text-yellow-200 lg:text-2xl  md:text-lg sm:px-4 py-8 font-Acme">
-           Mint your SAVAGE VARAN NFT and go on a Treasure Hunt. 
+            <hr className="w-full  border-yellow-300" />
+            <p className="text-base font-semibold tracking-wide text-yellow-300 lg:text-2xl  md:text-lg sm:px-4 py-8 font-Acme">
+           Mint your SAVAGE VARAN NFT and go on the hunt for the treasure of the Calypso. 
             </p>
 
 <div className="flex justify-center ">
@@ -45,15 +45,15 @@ const NFTMint = () => {
 
 <Image
               className="p-10 shadow-3xl"
-              src="/assets/varan_collection.jpg"
+              src="/assets/varan_collection_image.jpg"
               alt="Stardust"
-              width={750}
-              height={750}
+              width={1000}
+              height={1000}
             />
 
 <h1 className="text-yellow-300  text-xl font-Skranji">SAVAGE VARAN Treasure Hunt</h1>
 
-
+<h1 className="text-yellow-300  text-lg font-Acme">Mint Date TBA</h1>
   
 <div className="mt-5 mb-7 max-w-sm justify-items-center">
 
@@ -76,6 +76,85 @@ const NFTMint = () => {
          </div>
               </div>
 </div>
+
+<h1 className="text-yellow-300  text-2xl font-Acme text-center mt-8">Mint Tools for the Treasure Hunt</h1>
+<div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-4 max-w-3xl justify-items-center mx-auto mt-4">
+
+<div>
+<Image
+              className="rounded-2xl h-48 w-48"
+              src="/assets/tool_hammer.jpg"
+              alt="Hammer"
+              width={1000}
+              height={1000}
+            />
+
+</div>
+
+<div>
+<Image
+              className="rounded-2xl h-48 w-48"
+              src="/assets/tool_pickaxe.jpg"
+              alt="Pickaxe"
+              width={1000}
+              height={1000}
+            />
+
+</div>
+
+<div>
+<Image
+              className="rounded-2xl h-48 w-48"
+              src="/assets/tool_shovel.jpg"
+              alt="Shovel"
+              width={1000}
+              height={1000}
+            />
+
+</div>
+
+
+</div>
+<h1 className="text-yellow-300  text-2xl font-Acme text-center mt-8">Mint Weapons for the Treasure Hunt</h1>
+
+<div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-4 max-w-3xl justify-items-center mx-auto mt-4">
+
+<div>
+<Image
+              className="rounded-2xl h-48 w-48"
+              src="/assets/weapon_axe.jpg"
+              alt="Hammer"
+              width={1000}
+              height={1000}
+            />
+
+</div>
+
+<div>
+<Image
+              className="rounded-2xl h-48 w-48"
+              src="/assets/weapon_gun.jpg"
+              alt="Pickaxe"
+              width={1000}
+              height={1000}
+            />
+
+</div>
+
+<div>
+<Image
+              className="rounded-2xl h-48 w-48"
+              src="/assets/weapon_machete.jpg"
+              alt="Shovel"
+              width={1000}
+              height={1000}
+            />
+
+</div>
+
+
+</div>
+
  
 <div className="pb-12  justify-items-center">
 
@@ -117,7 +196,7 @@ const NFTMint = () => {
 
   <h1 className="text-lg text-center text-blue-900 font-Jost py-2 font-semibold">NFT contract address on Bscscan:</h1>
             <p className="text-base text-center text-blue-900 font-Jost px-2">
-              Savage Varan Collection: 0x94B0E73c4328A53ccc2CdeDbEeB2aF625984Af90
+              Savage Varan Tribe Collection: TBA
             </p>
             </div> 
       
